@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Chhabra Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/674a0ce25a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+</head>
+
+
+
+<!--background-->
+
+<!--Home section-->
+<body>
+    <div class="stars"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/infinite.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Interests</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to the <b>Space</b> of</p>
+                <h2><span>Grace Chhabra</span><br></h2>
+                <p><span>Computer Engineering @ SFU</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!--  ------------------about------------------ -->
+    <div class="stars"></div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Grace Chhabra, a passionate Computer Engineering student at SFU with a love for technology, community service, 
+                        and continuous learning. I specialize in software development, with experience in object-oriented programming, data structures, 
+                        and AI-driven applications. Beyond technology, I am dedicated to empowering communities through leadership and mentoring, bringing 
+                        my values of teamwork, discipline, and service to everything I do.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Designing websites</li>
+                                <li><span>Artificial Intelligence</span><br>Building AI applications</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025 - Present</span><br>Front End Developer at TechDiva</li>
+                                <li><span>2023 - Present</span><br>Project Leader at SFU OS Development Club</li>
+                                <li><span>2021 - Present</span><br>Software Engineer Intern at Teejlab</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Present</span><br>Computer Engineering at SFU</li>
+                                <!--<li><span>2025 - Present</span><br></li>-->
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------- Services------------------ -->
+<div class="stars"></div>
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Interests</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-lock-open"></i>
+                <h2>Cybersecurity</h2>
+                <p>Focus on areas like threat analysis, vulnerability assessment, 
+                    and implementing robust encryption protocols. My focus is on understanding and 
+                    mitigating security risks, ensuring data integrity, and safeguarding systems against evolving cyber threats.</p>
+                <!--<a href="#">Learn more</a>-->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Cryptography</h2>
+                <p> Focus on encryption algorithms, digital signatures, and secure protocols that ensure confidentiality, integrity, and authentication in online systems. 
+                    Exploring advanced concepts like public key infrastructure (PKI) and the emerging field of post-quantum cryptography drives my curiosity to learn and innovate in this field. </p>
+                <!--<a href="#">Learn more</a>-->  
+            </div>
+            <div>
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <h2>Machine Learning and AI in heathcare</h2>
+                <p>Focus on leveraging machine learning and artificial intelligence to revolutionize healthcare by improving diagnostics, 
+                    treatment planning, and patient care. I am particularly interested in developing predictive models for early 
+                    disease detection, personalized medicine, and optimizing clinical workflows.</p>
+                <!--<a href="#">Learn more</a>--> 
+            </div>
+        </div>
+    </div>
+
+
+ </div>
+
+<!-- --------------------------------portfolio---------------------- -->
+<div class="stars"></div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/physiotherapy.png">
+                <div class="layer">
+                    <h3>Physiotherapy AI Bot</h3>
+                    <p>Developed a Physiotherapy AI Bot using Python and computer vision to assist in rehabilitation exercises. 
+                        It detects movements, counts repetitions, and provides real-time feedback.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/badminton.png">
+                <div class="layer">
+                    <h3>Badminton Stat Tracker</h3>
+                    <p>Built a Badminton Stat Tracker using HTML, CSS, and JavaScript to track scores and matches in real time. 
+                    The tool provides live updates on games globally, offering a seamless way to monitor player stats and match outcomes.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/smoothie.png">
+                <div class="layer">
+                    <h3>Smoothie Recepie Generator</h3>
+                    <p>Built a Smoothie Recipe Generator using HTML, CSS, and JavaScript that generates customized smoothie recipes. 
+                        It allows users to input their preferred ingredients and provides tailored recipes, making it easy to create healthy 
+                        and delicious smoothies.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------contact---------------------------- -->
+<div class="stars"></div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> gracechhabra@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkdin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Grace Chhabra</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");    
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwf-8365wUIXEDz-0QZ573i-9wJtnbEWkXrMqiPPC-JYX3Egy_4gFJI_3cWN-wEkBDEDw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
