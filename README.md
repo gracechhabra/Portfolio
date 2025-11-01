@@ -1,2 +1,2 @@
-##Portfolio 
+Portfolio 
 Welcome to my digital space! This personal portfolio is a reflection of my journey in technology and beyond. It showcases my skills, interests, and the projects I’ve worked on, along with everything I’ve learned along the way. From my passion for building innovative solutions to my dedication to continuous learning, this space captures the essence of my growth and creativity. Dive in and explore!
